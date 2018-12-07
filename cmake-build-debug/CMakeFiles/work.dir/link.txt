@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/work.dir/main.cpp.o CMakeFiles/work.dir/attribute.cpp.o  -o work 

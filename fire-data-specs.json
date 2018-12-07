@@ -1,0 +1,158 @@
+{
+  "Unit ID": {
+    "type": "enum",
+    "count": 742
+  },
+  "Call Type": {
+    "type": "enum",
+    "count": 32
+  },
+  "Call Date": {
+    "type": "integer",
+    "optional": false,
+    "min": 955490400,
+    "max": 1539122400
+  },
+  "Watch Date": {
+    "type": "integer",
+    "optional": false,
+    "min": 1451516400,
+    "max": 1483225200
+  },
+  "Received DtTm": {
+    "type": "integer",
+    "optional": false,
+    "min": 1451602843,
+    "max": 1483311589
+  },
+  "Entry DtTm": {
+    "type": "integer",
+    "optional": false,
+    "min": 1451602962,
+    "max": 1483311743
+  },
+  "Dispatch DtTm": {
+    "type": "integer",
+    "optional": false,
+    "min": 1451603006,
+    "max": 1483311791
+  },
+  "Response DtTm": {
+    "type": "integer",
+    "optional": true,
+    "min": 1451603122,
+    "max": 1483311883
+  },
+  "On Scene DtTm": {
+    "type": "integer",
+    "optional": true,
+    "min": 1451603285,
+    "max": 1483311990
+  },
+  "Transport DtTm": {
+    "type": "integer",
+    "optional": true,
+    "min": 1451604148,
+    "max": 1483312891
+  },
+  "Hospital DtTm": {
+    "type": "integer",
+    "optional": true,
+    "min": 1451604963,
+    "max": 1483314738
+  },
+  "Call Final Disposition": {
+    "type": "enum",
+    "count": 15
+  },
+  "Available DtTm": {
+    "type": "integer",
+    "optional": true,
+    "min": 1451603253,
+    "max": 1483316817
+  },
+  "Address": {
+    "type": "enum",
+    "count": 17704
+  },
+  "City": {
+    "type": "enum",
+    "count": 9
+  },
+  "Zipcode of Incident": {
+    "type": "enum",
+    "count": 28
+  },
+  "Battalion": {
+    "type": "enum",
+    "count": 11
+  },
+  "Station Area": {
+    "type": "enum",
+    "count": 46
+  },
+  "Box": {
+    "type": "enum",
+    "count": 2089
+  },
+  "Original Priority": {
+    "type": "enum",
+    "count": 8
+  },
+  "Priority": {
+    "type": "enum",
+    "count": 8
+  },
+  "Final Priority": {
+    "type": "enum",
+    "count": 2
+  },
+  "ALS Unit": {
+    "type": "enum",
+    "count": 2
+  },
+  "Call Type Group": {
+    "type": "enum",
+    "count": 5
+  },
+  "Number of Alarms": {
+    "type": "integer",
+    "optional": false,
+    "min": 1,
+    "max": 5
+  },
+  "Unit Type": {
+    "type": "enum",
+    "count": 10
+  },
+  "Unit sequence in call dispatch": {
+    "type": "integer",
+    "optional": false,
+    "min": 1,
+    "max": 83
+  },
+  "Fire Prevention District": {
+    "type": "enum",
+    "count": 11
+  },
+  "Supervisor District": {
+    "type": "enum",
+    "count": 12
+  },
+  "Neighborhooods - Analysis Boundaries": {
+    "type": "enum",
+    "count": 42
+  },
+  "Location - Lat": {
+    "min": 37.6168823239251,
+    "max": 37.8544643401172,
+    "type": "float",
+    "optional": false
+  },
+  "Location - Lng": {
+    "min": -122.513648358854,
+    "max": -122.332574620522,
+    "type": "float",
+    "optional": false
+  }
+}
